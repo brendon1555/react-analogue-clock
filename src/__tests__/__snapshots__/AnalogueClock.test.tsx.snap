@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Component Snapshots should match snapshots as primary themed 1`] = `
+<Styled(styled.div)
+  size={300}
+>
+  <Styled(styled.div)
+    borderColor="#0de7c6"
+    borderWidth={0}
+  >
+    <Styled(styled.div)
+      baseColor="#948c8c"
+    >
+      <Styled(styled.div)
+        centerColor="#221543"
+      />
+      <Notches
+        borderSize={0}
+        notchColor="#376101"
+        numbersColor="#000000"
+        showNumbers={true}
+        size={300}
+      />
+      <Hand
+        handColors={
+          Object {
+            "hour": "#8f71fe",
+            "minute": "#f46700",
+            "second": "#044112",
+          }
+        }
+        hours={0}
+        minutes={0}
+        seconds={0}
+        type="second"
+      />
+      <Hand
+        handColors={
+          Object {
+            "hour": "#8f71fe",
+            "minute": "#f46700",
+            "second": "#044112",
+          }
+        }
+        hours={0}
+        minutes={0}
+        seconds={0}
+        type="minute"
+      />
+      <Hand
+        handColors={
+          Object {
+            "hour": "#8f71fe",
+            "minute": "#f46700",
+            "second": "#044112",
+          }
+        }
+        hours={0}
+        minutes={0}
+        seconds={0}
+        type="hour"
+      />
+    </Styled(styled.div)>
+  </Styled(styled.div)>
+</Styled(styled.div)>
+`;
+
+exports[`Test Component Snapshots should match snapshots as secondary themed 1`] = `
+<Styled(styled.div)
+  size={300}
+>
+  <Styled(styled.div)
+    borderColor="#0de7c6"
+    borderWidth={0}
+  >
+    <Styled(styled.div)
+      baseColor="#0de7c6"
+    >
+      <Styled(styled.div)
+        centerColor="#221543"
+      />
+      <Notches
+        borderSize={0}
+        notchColor="#376101"
+        numbersColor="#000000"
+        showNumbers={true}
+        size={300}
+      />
+      <Hand
+        handColors={
+          Object {
+            "hour": "#8f71fe",
+            "minute": "#f46700",
+            "second": "#044112",
+          }
+        }
+        hours={0}
+        minutes={0}
+        seconds={0}
+        type="second"
+      />
+      <Hand
+        handColors={
+          Object {
+            "hour": "#8f71fe",
+            "minute": "#f46700",
+            "second": "#044112",
+          }
+        }
+        hours={0}
+        minutes={0}
+        seconds={0}
+        type="minute"
+      />
+      <Hand
+        handColors={
+          Object {
+            "hour": "#8f71fe",
+            "minute": "#f46700",
+            "second": "#044112",
+          }
+        }
+        hours={0}
+        minutes={0}
+        seconds={0}
+        type="hour"
+      />
+    </Styled(styled.div)>
+  </Styled(styled.div)>
+</Styled(styled.div)>
+`;
