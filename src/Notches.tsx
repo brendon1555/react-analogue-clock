@@ -3,7 +3,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import Box from './Box';
 
-interface IAnalogSmallTickProps {
+interface IAnalogueSmallTickProps {
   notchColor: string;
   borderSize: number;
   size: number;
@@ -12,7 +12,7 @@ interface IAnalogSmallTickProps {
   numbersColor: string;
 }
 
-interface IAnalogLargeTickProps {
+interface IAnalogueLargeTickProps {
   notchColor: string;
   borderSize: number;
   size: number;
@@ -21,12 +21,12 @@ interface IAnalogLargeTickProps {
   numbersColor: string;
 }
 
-interface IAnalogLargeTickBeforeProps {
+interface IAnalogueLargeTickBeforeProps {
   i: number;
   numbersColor: string;
 }
 
-const AnalogSmallTick = styled(Box)<IAnalogSmallTickProps>`
+const AnalogueSmallTick = styled(Box)<IAnalogueSmallTickProps>`
   background: ${props => props.notchColor};
   height: 6px;
   left: calc(50% - 1px);
@@ -38,7 +38,7 @@ const AnalogSmallTick = styled(Box)<IAnalogSmallTickProps>`
       ${props.i * 6}deg)`};
 `;
 
-const AnalogLargeTick = styled(Box)<IAnalogLargeTickProps>`
+const AnalogueLargeTick = styled(Box)<IAnalogueLargeTickProps>`
   background: ${props => props.notchColor};
   height: 10px;
   left: calc(50% - 2px);
@@ -50,7 +50,7 @@ const AnalogLargeTick = styled(Box)<IAnalogLargeTickProps>`
         ${props.i * 6}deg)`};
   ${props =>
     props.showNumbers &&
-    css<IAnalogLargeTickBeforeProps>`
+    css<IAnalogueLargeTickBeforeProps>`
   &:before {
     content: '${innerProps => (innerProps.i === 0 ? 12 : innerProps.i / 5)}';
     position: absolute;
@@ -65,7 +65,7 @@ const AnalogLargeTick = styled(Box)<IAnalogLargeTickProps>`
   }`}
 `;
 
-AnalogLargeTick.propTypes = {
+AnalogueLargeTick.propTypes = {
   borderSize: PropTypes.number.isRequired,
   i: PropTypes.number.isRequired,
   notchColor: PropTypes.string.isRequired,
@@ -84,7 +84,7 @@ interface INotchProps {
 const Notches: React.FC<INotchProps> = ({ notchColor, size, borderSize, showNumbers, numbersColor }) => {
   const notches = [];
   for (let i = 0; i < 60; i++) {
-    const Component = i % 5 === 0 ? AnalogLargeTick : AnalogSmallTick;
+    const Component = i % 5 === 0 ? AnalogueLargeTick : AnalogueSmallTick;
     notches.push(
       <Component
         key={i}

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { useLayoutEffect, useState } from 'react';
 import styled, { css } from 'styled-components';
 
-import { IHandColors } from './AnalogClock';
+import { IHandColors } from './AnalogueClock';
 import Box from './Box';
 
 interface IHandTypeProps {

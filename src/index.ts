@@ -1,3 +1,3 @@
-import AnalogClock from './AnalogClock';
+import AnalogueClock from './AnalogueClock';
 
-export default AnalogClock;
+export default AnalogueClock;

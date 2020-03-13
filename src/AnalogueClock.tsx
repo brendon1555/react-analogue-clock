@@ -13,7 +13,7 @@ export interface IHandColors {
   minute: string;
   hour: string;
 }
-interface IAnalogClockProps {
+interface IAnalogueClockProps {
   size: number;
   showNumbers: boolean;
   borderWidth: number;
@@ -25,7 +25,7 @@ interface IAnalogClockProps {
   numbersColor: string;
 }
 
-const AnalogClock: React.FC<IAnalogClockProps> = ({
+const AnalogueClock: React.FC<IAnalogueClockProps> = ({
   size,
   showNumbers,
   borderWidth,
@@ -58,7 +58,7 @@ const AnalogClock: React.FC<IAnalogClockProps> = ({
   );
 };
 
-AnalogClock.propTypes = {
+AnalogueClock.propTypes = {
   baseColor: PropTypes.string.isRequired,
   borderColor: PropTypes.string.isRequired,
   borderWidth: PropTypes.number.isRequired,
@@ -74,7 +74,7 @@ AnalogClock.propTypes = {
   size: PropTypes.number.isRequired,
 };
 
-AnalogClock.defaultProps = {
+AnalogueClock.defaultProps = {
   baseColor: '#ffffff',
   borderColor: '#000000',
   borderWidth: 5,
@@ -90,4 +90,4 @@ AnalogClock.defaultProps = {
   size: 300,
 };
 
-export default AnalogClock;
+export default AnalogueClock;

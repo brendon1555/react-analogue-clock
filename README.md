@@ -1,31 +1,31 @@
-[![AnalogClock](./.github/animation.gif?v=3&s=200)](http://github.com/brendon1555/react-analog-clock)
+[![AnalogueClock](./.github/animation.gif?v=3&s=200)](http://github.com/brendon1555/react-analogue-clock)
 
-# React Analog Clock
+# React Analogue Clock
 
-> A customizable analog clock built with styled-components in React
+> A customizable analogue clock built with styled-components in React
 
-[![GitHub issues](https://img.shields.io/github/issues/brendon1555/react-analog-clock)](https://github.com/brendon1555/react-analog-clock/issues)
-[![devDependencies](https://img.shields.io/david/dev/brendon1555/react-analog-clock)](https://david-dm.org/brendon1555/react-analog-clock?type=dev)
-[![peerDependencies](https://img.shields.io/david/peer/brendon1555/react-analog-clock)](https://david-dm.org/brendon1555/react-analog-clock?type=peer)
-[![License](https://img.shields.io/github/license/brendon1555/react-analog-clock)](http://badges.mit-license.org)
+[![GitHub issues](https://img.shields.io/github/issues/brendon1555/react-analogue-clock)](https://github.com/brendon1555/react-analogue-clock/issues)
+[![devDependencies](https://img.shields.io/david/dev/brendon1555/react-analogue-clock)](https://david-dm.org/brendon1555/react-analogue-clock?type=dev)
+[![peerDependencies](https://img.shields.io/david/peer/brendon1555/react-analogue-clock)](https://david-dm.org/brendon1555/react-analogue-clock?type=peer)
+[![License](https://img.shields.io/github/license/brendon1555/react-analogue-clock)](http://badges.mit-license.org)
 
 ---
 ## Demo
 
-[Online demo](https://brendon1555.github.io/react-analog-clock/) is available
+[Online demo](https://brendon1555.github.io/react-analogue-clock/) is available
 
 ---
 
 ## Installation
 
 ```shell
-$ yarn add styled-components react-analog-clock
+$ yarn add styled-components react-analogue-clock
 ```
 
 or
 
 ```shell
-$ npm install --save styled-components react-analog-clock
+$ npm install --save styled-components react-analogue-clock
 ```
 
 ---
@@ -35,7 +35,7 @@ $ npm install --save styled-components react-analog-clock
 ```JSX
 // code away!
 
-import AnalogClock from 'react-analog-clock';
+import AnalogueClock from 'react-analogue-clock';
 
 
 const clockOptions = {
@@ -54,7 +54,7 @@ const clockOptions = {
     size: 300
 }
 
-<AnalogClock {...clockOptions} />
+<AnalogueClock {...clockOptions} />
 ```
 or
 #### Test it out with Storybook
@@ -76,7 +76,7 @@ $ yarn storybook
   - 🍴 Fork this repo!
 
 - **Option 2**
-  - 👯 Clone this repo to your local machine using `https://github.com/brendon1555/react-analog-clock.git`
+  - 👯 Clone this repo to your local machine using `https://github.com/brendon1555/react-analogue-clock.git`
 
 ### Step 2
 
@@ -84,7 +84,7 @@ $ yarn storybook
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/brendon1555/react-analog-clock/compare/" target="_blank">`https://github.com/brendon1555/react-analog-clock/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/brendon1555/react-analogue-clock/compare/" target="_blank">`https://github.com/brendon1555/react-analogue-clock/compare/`</a>.
 
 ---
 
@@ -108,7 +108,7 @@ Reach out to me at one of the following places!
 
 ## License
 
-[![License](https://img.shields.io/github/license/brendon1555/react-analog-clock)](http://badges.mit-license.org)
+[![License](https://img.shields.io/github/license/brendon1555/react-analogue-clock)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2020 © <a href="http://brendon1555.com" target="_blank">Brendon Lees</a>.

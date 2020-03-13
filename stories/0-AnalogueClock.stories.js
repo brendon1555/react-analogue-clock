@@ -1,16 +1,16 @@
 import React from 'react';
-import AnalogClock from '../src/AnalogClock';
+import AnalogueClock from '../src/AnalogueClock';
 import { withKnobs, boolean, number, object, color } from '@storybook/addon-knobs';
 
 export default {
-  title: 'AnalogClock',
-  component: AnalogClock,
+  title: 'AnalogueClock',
+  component: AnalogueClock,
   decorators: [withKnobs],
 };
 
-export const DefaultAnalogClock = () => <AnalogClock />;
-export const CustomAnalogClock = () => (
-  <AnalogClock
+export const DefaultAnalogueClock = () => <AnalogueClock />;
+export const CustomAnalogueClock = () => (
+  <AnalogueClock
     baseColor={color('baseColor', '#ffffff')}
     borderColor={color('borderColor', '#000000')}
     borderWidth={number('borderWidth', 5)}
@@ -27,9 +27,9 @@ export const CustomAnalogClock = () => (
   />
 );
 
-DefaultAnalogClock.story = {
+DefaultAnalogueClock.story = {
   name: 'Default',
 };
-CustomAnalogClock.story = {
+CustomAnalogueClock.story = {
   name: 'Custom',
 };

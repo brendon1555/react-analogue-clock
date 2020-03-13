@@ -1,9 +1,9 @@
 {
-  "name": "react-analog-clock",
+  "name": "react-analogue-clock",
   "version": "0.1.0",
   "main": "build/index.js",
   "module": "build/index.es.js",
-  "repository": "https://github.com/brendon1555/react-analog-clock.git",
+  "repository": "https://github.com/brendon1555/react-analogue-clock.git",
   "author": "Brendon Lees <brendon1555@gmail.com>",
   "license": "MIT",
   "scripts": {
