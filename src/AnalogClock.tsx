@@ -75,16 +75,16 @@ AnalogClock.propTypes = {
 };
 
 AnalogClock.defaultProps = {
-  baseColor: '#948c8c',
-  borderColor: '#0de7c6',
-  borderWidth: 0,
-  centerColor: '#221543',
+  baseColor: '#ffffff',
+  borderColor: '#000000',
+  borderWidth: 5,
+  centerColor: '#000000',
   handColors: {
-    hour: '#8f71fe',
-    minute: '#f46700',
-    second: '#044112',
+    hour: '#000000',
+    minute: '#000000',
+    second: '#000000',
   },
-  notchColor: '#376101',
+  notchColor: '#000000',
   numbersColor: '#000000',
   showNumbers: true,
   size: 300,

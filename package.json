@@ -18,7 +18,7 @@
     "version": "yarn format && git add -A src",
     "postversion": "git push && git push --tags",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o docs"
   },
   "dependencies": {
     "prop-types": "^15.7.2"

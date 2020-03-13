@@ -51,6 +51,12 @@ const clockOptions = {
 
 <AnalogClock {...clockOptions} />
 ```
+or
+#### Test it out with Storybook
+
+```shell
+$ yarn storybook
+```
 
 ---
 

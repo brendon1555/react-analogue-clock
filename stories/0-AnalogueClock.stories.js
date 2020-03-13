@@ -11,16 +11,16 @@ export default {
 export const DefaultAnalogClock = () => <AnalogClock />;
 export const CustomAnalogClock = () => (
   <AnalogClock
-    baseColor={color('baseColor', '#948c8c')}
-    borderColor={color('borderColor', '#0de7c6')}
-    borderWidth={number('borderWidth', 0)}
-    centerColor={color('centerColor', '#221543')}
+    baseColor={color('baseColor', '#ffffff')}
+    borderColor={color('borderColor', '#000000')}
+    borderWidth={number('borderWidth', 5)}
+    centerColor={color('centerColor', '#000000')}
     handColors={{
-      hour: color('handColors.hour', '#8f71fe'),
-      minute: color('handColors.minute', '#f46700'),
-      second: color('handColors.second', '#044112'),
+      hour: color('handColors.hour', '#000000'),
+      minute: color('handColors.minute', '#000000'),
+      second: color('handColors.second', '#000000'),
     }}
-    notchColor={color('notchColor', '#376101')}
+    notchColor={color('notchColor', '#000000')}
     showNumbers={boolean('showNumbers', true)}
     numbersColor={color('numbersColor', '#000000')}
     size={number('size', 300)}
