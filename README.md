@@ -10,6 +10,11 @@
 [![License](https://img.shields.io/github/license/brendon1555/react-analog-clock)](http://badges.mit-license.org)
 
 ---
+## Demo
+
+[Online demo](https://brendon1555.github.io/react-analog-clock/) is available
+
+---
 
 ## Installation
 
