@@ -10,6 +10,7 @@
 [![License](https://img.shields.io/github/license/brendon1555/react-analogue-clock)](http://badges.mit-license.org)
 
 ---
+
 ## Demo
 
 [Online demo](https://brendon1555.github.io/react-analogue-clock/) is available
@@ -56,12 +57,41 @@ const clockOptions = {
 
 <AnalogueClock {...clockOptions} />
 ```
+
 or
+
 #### Test it out with Storybook
 
 ```shell
 $ yarn storybook
 ```
+
+## Props
+
+- **baseColor**: `[string]`
+  - Background color of the clock face.
+- **borderColor**: `[string]`
+  - Color of the border.
+- **borderWidth**: `[integer]`
+  - Width of the border. _0 will hide the border_
+- **centerColor**: `[string]`
+  - Color of the center dot.
+- **handColors**: `[object]`
+  - Color of each hand.
+  - **hour**: `[string]`
+    - Color ogf the hour hand.
+  - **minute**: `[string]`
+    - Color of the minute hand.
+  - **second**: `[string]`
+    - Color of the second hand.
+- **notchColor**: `[string]`
+  - Color of the minute notches.
+- **numberColor**: `[string]`
+  - Color of the hour numbers. (if enabled)
+- **showNumbers**: `[boolean]`
+  - Toggle the hour numbers.
+- **size**: `[integer]`
+  - Size of the clock face in pixels.
 
 ---
 
@@ -90,10 +120,10 @@ $ yarn storybook
 
 ## Contributors
 
-|                  <a href="https://brendon1555.com" target="_blank">**Brendon Lees**</a>                  |
-| :----------------------------------------------------------------------------------------------------: |
+|                 <a href="https://brendon1555.com" target="_blank">**Brendon Lees**</a>                  |
+| :-----------------------------------------------------------------------------------------------------: |
 | [![Brendon1555](https://avatars3.githubusercontent.com/u/12216552?&v=3&s=200)](https://brendon1555.com) |
-|          <a href="http://github.com/brendon1555" target="_blank">`github.com/brendon1555`</a>          |
+|          <a href="http://github.com/brendon1555" target="_blank">`github.com/brendon1555`</a>           |
 
 ---
 
