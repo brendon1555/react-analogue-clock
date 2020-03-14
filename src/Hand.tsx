@@ -59,7 +59,6 @@ const StyledHand = styled(Box)<IHandTypeProps>`
   position: absolute;
   top: 50%;
   transform-origin: 100% 50%;
-  transform: rotate(${props => props.handAngle + 90}deg);
   transition: ${props => (props.showAnimation ? 'transform 0.3s cubic-bezier(.4,2.08,.55,.44)' : 'none')};
   ${props =>
     props.type === 'second' &&
@@ -108,6 +107,7 @@ const Hand: React.FC<IHandTypeWithAngleProps> = ({ type, seconds, minutes, hours
 
   return (
     <StyledHand
+      style={{ transform: `rotate(${handAngle + 90}deg)` }}
       type={type}
       handAngle={handAngle}
       secondStartAngle={secondStartAngle}

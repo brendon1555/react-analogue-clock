@@ -73,7 +73,7 @@ $ yarn storybook
 - **borderColor**: `[string]`
   - Color of the border.
 - **borderWidth**: `[integer]`
-  - Width of the border. _0 will hide the border_
+  - Width of the border. _0 will hide the border._
 - **centerColor**: `[string]`
   - Color of the center dot.
 - **handColors**: `[object]`
