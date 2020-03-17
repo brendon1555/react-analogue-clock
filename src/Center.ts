@@ -1,3 +1,4 @@
+import * as ExtraPropTypes from 'extra-prop-types';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Box from './Box';
@@ -21,7 +22,7 @@ const Center = styled(Box)<ICenterProps>`
 `;
 
 Center.propTypes = {
-  centerColor: PropTypes.string.isRequired,
+  centerColor: ExtraPropTypes.color.isRequired,
 };
 
 export default Center;

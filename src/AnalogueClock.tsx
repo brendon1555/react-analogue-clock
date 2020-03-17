@@ -1,3 +1,4 @@
+import * as ExtraPropTypes from 'extra-prop-types';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Base from './Base';
@@ -59,17 +60,17 @@ const AnalogueClock: React.FC<IAnalogueClockProps> = ({
 };
 
 AnalogueClock.propTypes = {
-  baseColor: PropTypes.string.isRequired,
-  borderColor: PropTypes.string.isRequired,
+  baseColor: ExtraPropTypes.color.isRequired,
+  borderColor: ExtraPropTypes.color.isRequired,
   borderWidth: PropTypes.number.isRequired,
-  centerColor: PropTypes.string.isRequired,
+  centerColor: ExtraPropTypes.color.isRequired,
   handColors: PropTypes.shape({
-    hour: PropTypes.string.isRequired,
-    minute: PropTypes.string.isRequired,
-    second: PropTypes.string.isRequired,
+    hour: ExtraPropTypes.color.isRequired,
+    minute: ExtraPropTypes.color.isRequired,
+    second: ExtraPropTypes.color.isRequired,
   }).isRequired,
-  notchColor: PropTypes.string.isRequired,
-  numbersColor: PropTypes.string.isRequired,
+  notchColor: ExtraPropTypes.color.isRequired,
+  numbersColor: ExtraPropTypes.color.isRequired,
   showNumbers: PropTypes.bool.isRequired,
   size: PropTypes.number.isRequired,
 };

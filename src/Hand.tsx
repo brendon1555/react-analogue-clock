@@ -1,3 +1,4 @@
+import * as ExtraPropTypes from 'extra-prop-types';
 import PropTypes from 'prop-types';
 import React, { useLayoutEffect, useState } from 'react';
 import styled, { css } from 'styled-components';
@@ -119,9 +120,9 @@ const Hand: React.FC<IHandTypeWithAngleProps> = ({ type, seconds, minutes, hours
 
 Hand.propTypes = {
   handColors: PropTypes.shape({
-    hour: PropTypes.string.isRequired,
-    minute: PropTypes.string.isRequired,
-    second: PropTypes.string.isRequired,
+    hour: ExtraPropTypes.color.isRequired,
+    minute: ExtraPropTypes.color.isRequired,
+    second: ExtraPropTypes.color.isRequired,
   }).isRequired,
   hours: PropTypes.number.isRequired,
   minutes: PropTypes.number.isRequired,

@@ -1,3 +1,4 @@
+import * as ExtraPropTypes from 'extra-prop-types';
 import PropTypes from 'prop-types';
 import React from 'react';
 import styled, { css } from 'styled-components';
@@ -102,8 +103,8 @@ const Notches: React.FC<INotchProps> = ({ notchColor, size, borderSize, showNumb
 
 Notches.propTypes = {
   borderSize: PropTypes.number.isRequired,
-  notchColor: PropTypes.string.isRequired,
-  numbersColor: PropTypes.string.isRequired,
+  notchColor: ExtraPropTypes.color.isRequired,
+  numbersColor: ExtraPropTypes.color.isRequired,
   showNumbers: PropTypes.bool.isRequired,
   size: PropTypes.number.isRequired,
 };

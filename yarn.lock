@@ -4761,6 +4761,13 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+extra-prop-types@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/extra-prop-types/-/extra-prop-types-0.1.1.tgz#275db60ef4e33509654559819d85a03ef7353909"
+  integrity sha512-u9YYFzKlhwW6Ls9TDt+6P03Aa+/ZBW7OiJUCeBeN2dJGEHqxXQ0xYHad53mjKhu2UkLljnw4tu0LjloCu7mGZA==
+  dependencies:
+    invariant "^2.2.4"
+
 extsprintf@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"

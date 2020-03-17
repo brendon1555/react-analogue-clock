@@ -1,3 +1,4 @@
+import * as ExtraPropTypes from 'extra-prop-types';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Box from './Box';
@@ -18,7 +19,7 @@ const Border = styled(Box)<IBorderProps>`
 `;
 
 Border.propTypes = {
-  borderColor: PropTypes.string.isRequired,
+  borderColor: ExtraPropTypes.color.isRequired,
   borderWidth: PropTypes.number.isRequired,
 };
 

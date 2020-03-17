@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import * as ExtraPropTypes from 'extra-prop-types';
 import styled from 'styled-components';
 import Box from './Box';
 
@@ -15,7 +15,7 @@ const Base = styled(Box)<IBaseProps>`
 `;
 
 Base.propTypes = {
-  baseColor: PropTypes.string.isRequired,
+  baseColor: ExtraPropTypes.color.isRequired,
 };
 
 export default Base;
