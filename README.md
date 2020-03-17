@@ -68,31 +68,33 @@ $ yarn storybook
 
 ## Props
 
-- **baseColor**: `[string]`
+- **baseColor**: `[color]`
   - Background color of the clock face.
-- **borderColor**: `[string]`
+- **borderColor**: `[color]`
   - Color of the border.
 - **borderWidth**: `[integer]`
   - Width of the border. _0 will hide the border._
-- **centerColor**: `[string]`
+- **centerColor**: `[color]`
   - Color of the center dot.
 - **handColors**: `[object]`
   - Color of each hand.
-  - **hour**: `[string]`
+  - **hour**: `[color]`
     - Color ogf the hour hand.
-  - **minute**: `[string]`
+  - **minute**: `[color]`
     - Color of the minute hand.
-  - **second**: `[string]`
+  - **second**: `[color]`
     - Color of the second hand.
-- **notchColor**: `[string]`
+- **notchColor**: `[color]`
   - Color of the minute notches.
-- **numberColor**: `[string]`
+- **numberColor**: `[color]`
   - Color of the hour numbers. (if enabled)
 - **showNumbers**: `[boolean]`
   - Toggle the hour numbers.
 - **size**: `[integer]`
   - Size of the clock face in pixels.
 
+
+> `color` type defined by [extra-prop-types](https://github.com/brendon1555/extra-prop-type)
 ---
 
 ## Contributing
