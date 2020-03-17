@@ -6,6 +6,18 @@
   "repository": "https://github.com/brendon1555/react-analogue-clock.git",
   "author": "Brendon Lees <brendon1555@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "analog",
+    "analogue",
+    "clock",
+    "time",
+    "styled-components",
+    "front-end",
+    "react-component",
+    "component",
+    "typescript"
+  ],
   "scripts": {
     "test": "jest --watch",
     "test:once": "jest",
