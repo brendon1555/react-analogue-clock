@@ -1,6 +1,6 @@
 {
   "name": "react-analogue-clock",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "repository": "https://github.com/brendon1555/react-analogue-clock.git",
