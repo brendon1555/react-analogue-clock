@@ -5967,10 +5967,10 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-extra-prop-types@^0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/extra-prop-types/-/extra-prop-types-0.1.1.tgz#275db60ef4e33509654559819d85a03ef7353909"
-  integrity sha512-u9YYFzKlhwW6Ls9TDt+6P03Aa+/ZBW7OiJUCeBeN2dJGEHqxXQ0xYHad53mjKhu2UkLljnw4tu0LjloCu7mGZA==
+extra-prop-types@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/extra-prop-types/-/extra-prop-types-0.1.2.tgz#9102efe6a16003346f4859a2881ac66c9d2c0120"
+  integrity sha512-xV2/SrP+t2bgixvMbwtndhvHhnylW0HrwDWj4QpPe3E3b5BUeA+IsHpWiKNAVW33VXEWIetNqXJvPb8AR0pCsQ==
   dependencies:
     invariant "^2.2.4"
 

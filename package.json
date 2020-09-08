@@ -33,7 +33,7 @@
     "build-storybook": "build-storybook -o docs"
   },
   "dependencies": {
-    "extra-prop-types": "^0.1.0",
+    "extra-prop-types": "^0.1.2",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
