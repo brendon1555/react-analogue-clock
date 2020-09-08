@@ -11,12 +11,14 @@ export default {
     {
       file: packageJson.main,
       format: "cjs",
-      sourcemap: true
+      sourcemap: true,
+      exports: "default"
     },
     {
       file: packageJson.module,
       format: "es",
-      sourcemap: true
+      sourcemap: true,
+      exports: "default"
     }
   ],
   plugins: [

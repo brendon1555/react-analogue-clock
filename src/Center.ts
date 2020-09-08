@@ -14,7 +14,7 @@ const Center = styled(Box)<ICenterProps>`
   width: 16px;
   height: 16px;
   // border: 1px solid #fff;
-  background-color: ${props => props.centerColor};
+  background-color: ${(props) => props.centerColor};
   border-radius: 100%;
   margin-left: -8px;
   margin-top: -8px;

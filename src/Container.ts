@@ -7,8 +7,8 @@ interface IContainerProps {
 }
 
 const Container = styled(Box)<IContainerProps>`
-  height: ${props => `${props.size}px`};
-  width: ${props => `${props.size}px`};
+  height: ${(props) => `${props.size}px`};
+  width: ${(props) => `${props.size}px`};
   > *,
   *::before,
   *::after {

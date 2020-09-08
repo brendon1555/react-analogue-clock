@@ -13,8 +13,8 @@ const Border = styled(Box)<IBorderProps>`
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  background-color: ${props => (props.borderWidth && props.borderColor ? props.borderColor : 'transparent')};
-  padding: ${props => (props.borderWidth ? `${props.borderWidth}px` : '0')};
+  background-color: ${(props) => (props.borderWidth && props.borderColor ? props.borderColor : 'transparent')};
+  padding: ${(props) => (props.borderWidth ? `${props.borderWidth}px` : '0')};
   border-radius: 100%;
 `;
 

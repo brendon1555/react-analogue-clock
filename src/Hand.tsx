@@ -60,33 +60,33 @@ const StyledHand = styled(Box)<IHandTypeProps>`
   position: absolute;
   top: 50%;
   transform-origin: 100% 50%;
-  transition: ${props => (props.showAnimation ? 'transform 0.3s cubic-bezier(.4,2.08,.55,.44)' : 'none')};
-  ${props =>
+  transition: ${(props) => (props.showAnimation ? 'transform 0.3s cubic-bezier(.4,2.08,.55,.44)' : 'none')};
+  ${(props) =>
     props.type === 'second' &&
     css<IFaceNumberProps>`
       height: 1%;
       margin-top: -0.5%;
       transform-origin: 80% 50%;
       right: 40%;
-      background: ${innerProps =>
+      background: ${(innerProps) =>
         innerProps.handColors && innerProps.handColors.second ? innerProps.handColors.second : '#d81c7a'};
       width: 50%;
       z-index: 11;
     `}
-  ${props =>
+  ${(props) =>
     props.type === 'minute' &&
     css<IFaceNumberProps>`
-      background: ${innerProps =>
+      background: ${(innerProps) =>
         innerProps.handColors && innerProps.handColors.minute ? innerProps.handColors.minute : '#d81c7a'};
       width: 40%;
       height: 2%;
       margin-top: -1%;
       z-index: 9;
     `}
-  ${props =>
+  ${(props) =>
     props.type === 'hour' &&
     css<IFaceNumberProps>`
-      background: ${innerProps =>
+      background: ${(innerProps) =>
         innerProps.handColors && innerProps.handColors.hour ? innerProps.handColors.hour : '#d81c7a'};
       width: 20%;
       height: 2.5%;

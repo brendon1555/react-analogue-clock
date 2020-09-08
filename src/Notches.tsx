@@ -28,42 +28,43 @@ interface IAnalogueLargeTickBeforeProps {
 }
 
 const AnalogueSmallTick = styled(Box)<IAnalogueSmallTickProps>`
-  background: ${props => props.notchColor};
+  background: ${(props) => props.notchColor};
   height: 6px;
   left: calc(50% - 1px);
   position: absolute;
   top: 10px;
-  transform-origin: ${props => `50% ${Math.ceil(props.size / 2) - (props.borderSize + 10)}px`};
+  transform-origin: ${(props) => `50% ${Math.ceil(props.size / 2) - (props.borderSize + 10)}px`};
   width: 2px;
-  transform: ${props => `rotate(
+  transform: ${(props) => `rotate(
       ${props.i * 6}deg)`};
 `;
 
 const AnalogueLargeTick = styled(Box)<IAnalogueLargeTickProps>`
-  background: ${props => props.notchColor};
+  background: ${(props) => props.notchColor};
   height: 10px;
   left: calc(50% - 2px);
   position: absolute;
   top: 10px;
-  transform-origin: ${props => `50% ${Math.ceil(props.size / 2) - (props.borderSize + 10)}px`};
+  transform-origin: ${(props) => `50% ${Math.ceil(props.size / 2) - (props.borderSize + 10)}px`};
   width: 4px;
-  transform: ${props => `rotate(
+  transform: ${(props) => `rotate(
         ${props.i * 6}deg)`};
-  ${props =>
+  ${(props) =>
     props.showNumbers &&
     css<IAnalogueLargeTickBeforeProps>`
-  &:before {
-    content: '${innerProps => (innerProps.i === 0 ? 12 : innerProps.i / 5)}';
-    position: absolute;
-    width: 30px;
-    text-align: center;
-    left: 50%;
-    margin-left: -15px;
-    top: 15px;
-    font-size: 25px;
-    transform: ${innerProps => `rotate(-${innerProps.i * 6}deg)`};
-    color: ${innerProps => innerProps.numbersColor}
-  }`}
+      &:before {
+        content: '${(innerProps) => (innerProps.i === 0 ? 12 : innerProps.i / 5)}';
+        position: absolute;
+        width: 30px;
+        text-align: center;
+        left: 50%;
+        margin-left: -15px;
+        top: 15px;
+        font-size: 25px;
+        transform: ${(innerProps) => `rotate(-${innerProps.i * 6}deg)`};
+        color: ${(innerProps) => innerProps.numbersColor};
+      }
+    `}
 `;
 
 AnalogueLargeTick.propTypes = {

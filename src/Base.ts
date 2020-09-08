@@ -10,7 +10,7 @@ const Base = styled(Box)<IBaseProps>`
   position: relative;
   height: 100%;
   width: 100%;
-  background-color: ${props => props.baseColor};
+  background-color: ${(props) => props.baseColor};
   border-radius: 100%;
 `;
 
