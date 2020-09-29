@@ -45,7 +45,7 @@ const getHandAngle = ({ type, seconds, minutes, hours }: IHandAngleProps): numbe
       handAngle = hours * 360 + minutes * 6;
       break;
     case 'hour':
-      handAngle = hours * 30;
+      handAngle = hours * 30 + minutes / 2;
       break;
     default:
       handAngle = 360;
