@@ -10,9 +10,9 @@ import Notches from './Notches';
 import useTime from './useTime';
 
 export interface IHandColors {
-  second: string;
-  minute: string;
-  hour: string;
+  second?: string;
+  minute?: string;
+  hour?: string;
 }
 interface IAnalogueClockProps {
   size: number;
